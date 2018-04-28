@@ -4,9 +4,12 @@ import cn.sunguolei.study.StackTest.Stack;
 
 public class MyStack<E> implements Stack<E> {
 
-    private Object[] data = null; //数据域
-    private int top = -1;           //栈顶指针初始化为-1
-    private int maxSize = 0;      //栈最大容量
+    //数据域
+    private Object[] data = null;
+    //栈顶指针初始化为-1
+    private int top = -1;
+    //栈最大容量
+    private int maxSize = 0;
 
     //默认设置栈容量为10
     MyStack() {
@@ -15,18 +18,22 @@ public class MyStack<E> implements Stack<E> {
 
     public MyStack(int initialSize) {
         if (initialSize >= 0) {
-            this.data = new Object[initialSize]; //初始化数组
-            this.maxSize = initialSize; //设置栈最大容量
+            //初始化数组
+            this.data = new Object[initialSize];
+            //设置栈最大容量
+            this.maxSize = initialSize;
             this.top = -1;
         }
     }
 
     public boolean isEmpty() {
-        return top == -1 ? true : false; //根据栈顶值判断,如果栈顶指针没有更新，则为空栈
+        //根据栈顶值判断,如果栈顶指针没有更新，则为空栈
+        return top == -1;
     }
 
     public boolean isMax() {
-        return top >= maxSize - 1 ? true : false; //根据栈顶值判断，如果栈顶指针大于最大容量，则为满栈
+        //根据栈顶值判断，如果栈顶指针大于最大容量，则为满栈
+        return top >= maxSize - 1;
     }
 
     public boolean push(E e) {
@@ -74,11 +81,13 @@ public class MyStack<E> implements Stack<E> {
     }
 
     public int size() {
-        return this.top + 1; //栈顶值+1，为栈元素的实际个数
+        //栈顶值+1，为栈元素的实际个数
+        return this.top + 1;
     }
 
     public int getStackSize() {
-        return this.maxSize; //返回栈实际长度
+        //返回栈实际长度
+        return this.maxSize;
     }
 
     public void display() {

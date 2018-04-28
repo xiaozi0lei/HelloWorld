@@ -1,7 +1,7 @@
-package cn.sunguolei.study.member.Impl;
+package cn.sunguolei.study.PatternTest.Impl;
 
 
-import cn.sunguolei.study.member.Member;
+import cn.sunguolei.study.PatternTest.Member;
 
 public class PrimaryMember implements Member {
     @Override

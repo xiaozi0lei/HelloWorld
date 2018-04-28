@@ -1,4 +1,4 @@
-package cn.sunguolei.study.member;
+package cn.sunguolei.study.PatternTest;
 
 public interface Member {
     public double calPrice(double bookPrice);

@@ -1,4 +1,4 @@
-package cn.sunguolei.study.member;
+package cn.sunguolei.study.PatternTest;
 
 public class Cashier {
     private Member member;

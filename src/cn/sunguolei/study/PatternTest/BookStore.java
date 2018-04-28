@@ -1,8 +1,11 @@
-package cn.sunguolei.study.member;
+package cn.sunguolei.study.PatternTest;
 
-import cn.sunguolei.study.member.Impl.AdvancedMember;
-import cn.sunguolei.study.member.Impl.IntermediateMember;
+import cn.sunguolei.study.PatternTest.Impl.AdvancedMember;
+import cn.sunguolei.study.PatternTest.Impl.IntermediateMember;
 
+/**
+ * 策略设计模式
+ */
 public class BookStore {
 
     public static void main(String[] args) {

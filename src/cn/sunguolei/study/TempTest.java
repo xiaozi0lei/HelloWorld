@@ -1,8 +1,6 @@
 package cn.sunguolei.study;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 
 public class TempTest {
@@ -28,8 +26,6 @@ public class TempTest {
             System.out.println(i);
         }
 
-        for (Iterator iter = list.iterator(); iter.hasNext(); ) {
 
-        }
     }
 }
