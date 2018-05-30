@@ -26,6 +26,9 @@ public class TempTest {
             System.out.println(i);
         }
 
+        String[] result = null;
+        String testString = result[0];
+        System.out.println(testString);
 
     }
 }
