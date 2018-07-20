@@ -48,5 +48,6 @@ public enum EnumTest {
         if (enumTest != null) {
             System.out.println(enumTest.getDesc());
         }
+
     }
 }

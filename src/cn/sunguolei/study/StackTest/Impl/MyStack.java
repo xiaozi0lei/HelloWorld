@@ -102,11 +102,13 @@ public class MyStack<E> implements Stack<E> {
         MyStack<Integer> stack = new MyStack<Integer>();
         //入栈
         for (int i = 0; i < 10; i++) {
-            stack.push(i);
+            stack.push(i + 1);
         }
 
-        stack.pop();
+        // 出栈一个数
+        System.out.println(stack.pop());
 
+        // 出栈所有的数
         stack.display();
 
         //出栈
