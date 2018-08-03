@@ -26,9 +26,17 @@ public class TempTest {
             System.out.println(i);
         }
 
-        String[] result = null;
-        String testString = result[0];
-        System.out.println(testString);
+//        String[] result = null;
+//        String testString = result[0];
+//        System.out.println(testString);
 
+        LinkedList linkedList = new LinkedList();
+
+        Hashtable<String, String> hashtable = new Hashtable<>();
+        hashtable.put("hello", "你好");
+
+        System.out.println(hashtable.elements());
+        System.out.println(hashtable.remove("hello"));
+        System.out.println(hashtable.keySet());
     }
 }
