@@ -38,5 +38,10 @@ public class TempTest {
         System.out.println(hashtable.elements());
         System.out.println(hashtable.remove("hello"));
         System.out.println(hashtable.keySet());
+
+
+        String test = "Substitute";
+        String[] temp = test.split(",");
+        System.out.println(Arrays.toString(temp));
     }
 }
